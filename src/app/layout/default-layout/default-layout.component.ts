@@ -8,22 +8,12 @@ import {
   ShadowOnScrollDirective,
   SidebarBrandComponent,
   SidebarComponent,
-  SidebarFooterComponent,
   SidebarHeaderComponent,
   SidebarNavComponent,
-  SidebarToggleDirective,
-  SidebarTogglerDirective
 } from '@coreui/angular';
 
 import { DefaultFooterComponent, DefaultHeaderComponent } from './';
 import { navItems } from './_nav';
-
-function isOverflown(element: HTMLElement) {
-  return (
-    element.scrollHeight > element.clientHeight ||
-    element.scrollWidth > element.clientWidth
-  );
-}
 
 @Component({
   selector: 'app-dashboard',
@@ -34,9 +24,6 @@ function isOverflown(element: HTMLElement) {
     SidebarHeaderComponent,
     SidebarBrandComponent,
     SidebarNavComponent,
-    SidebarFooterComponent,
-    SidebarToggleDirective,
-    SidebarTogglerDirective,
     ContainerComponent,
     DefaultFooterComponent,
     DefaultHeaderComponent,
@@ -44,8 +31,8 @@ function isOverflown(element: HTMLElement) {
     NgScrollbar,
     RouterOutlet,
     RouterLink,
-    ShadowOnScrollDirective
-  ]
+    ShadowOnScrollDirective,
+  ],
 })
 export class DefaultLayoutComponent {
   public navItems = [...navItems];
