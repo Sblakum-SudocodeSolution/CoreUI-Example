@@ -8,52 +8,72 @@ export const navItems: INavData[] = [
   },
   {
     title: true,
-    name: 'Theme',
+    name: 'Documents',
   },
   {
-    name: 'Colors',
-    url: '/theme/colors',
+    name: 'Documents',
+    url: '/documents',
     iconComponent: { name: 'cil-drop' },
   },
   {
-    name: 'Typography',
-    url: '/theme/typography',
+    name: 'Template',
+    url: '/template',
     iconComponent: { name: 'cil-pencil' },
   },
   {
-    name: 'Components',
+    name: 'Contacts',
     title: true,
   },
   {
-    name: 'Charts',
+    name: 'Contacts',
     iconComponent: { name: 'cil-chart-pie' },
-    url: '/charts',
+    url: '/create-contact',
   },
 
   {
-    name: 'Widgets',
-    url: '/widgets',
+    name: 'Team',
+    url: '/team',
     iconComponent: { name: 'cil-calculator' },
   },
   {
-    title: true,
-    name: 'Extras',
+    name: 'API',
+    url: '/api',
+    iconComponent: { name: 'cil-calculator' },
   },
   {
-    name: 'Pages',
-    url: '/login',
-    iconComponent: { name: 'cil-star' },
-    children: [
-      {
-        name: 'Login',
-        url: '/login',
-        icon: 'nav-icon-bullet',
-      },
-      {
-        name: 'Register',
-        url: '/register',
-        icon: 'nav-icon-bullet',
-      },
-    ],
+    name: 'Admin',
+    url: '/admin',
+    iconComponent: { name: 'cil-calculator' },
   },
+  {
+    name: 'Support',
+    url: '/support',
+    iconComponent: { name: 'cil-calculator' },
+  },
+  {
+    name: 'Setting',
+    url: '/setting',
+    iconComponent: { name: 'cil-calculator' },
+  },
+  // {
+  //   title: true,
+  //   name: 'Extras',
+  // },
+  // {
+  //   name: 'Pages',
+  //   url: '/login',
+  //   iconComponent: { name: 'cil-star' },
+  //   children: [
+  //     {
+  //       name: 'Login',
+  //       url: '/login',
+  //       icon: 'nav-icon-bullet',
+  //     },
+  //     {
+  //       name: 'Register',
+  //       url: '/register',
+  //       icon: 'nav-icon-bullet',
+  //     },
+  //   ],
+  // },
 ];

@@ -4,15 +4,14 @@
     <button
       [cSidebarToggle]="sidebarId()"
       cHeaderToggler
-      class="btn"
+      class="btn btn-sidebar-toggle"
       toggle="visible"
-      style="margin-inline-start: -14px"
       aria-label="Toggle sidebar navigation"
     >
       <svg cIcon name="cilMenu" size="lg"></svg>
     </button>
 
-    <c-header-nav class="mx-0">
+    <c-header-nav class="mx-0 ms-auto">
       <ng-container *ngTemplateOutlet="userDropdown" />
     </c-header-nav> </c-container
 ></ng-container>

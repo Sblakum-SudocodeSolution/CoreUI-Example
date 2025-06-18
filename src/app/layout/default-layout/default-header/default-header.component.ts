@@ -21,6 +21,7 @@ import { IconDirective } from '@coreui/icons-angular';
 @Component({
   selector: 'app-default-header',
   templateUrl: './default-header.component.html',
+  styleUrl : "./default-header.component.scss",
   imports: [
     ContainerComponent,
     HeaderTogglerDirective,

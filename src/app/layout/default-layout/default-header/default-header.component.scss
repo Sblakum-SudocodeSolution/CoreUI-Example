@@ -1,0 +1,19 @@
+@use "../../../../scss/variables" as *;
+
+.btn-sidebar-toggle {
+  margin-inline-start: -14px;
+
+  display: none;
+
+  @include breakpoint(xs) {
+    display: block;
+  }
+
+  @include breakpoint(sm) {
+    display: block;
+  }
+
+  @include breakpoint(md) {
+    display: block;
+  }
+}
